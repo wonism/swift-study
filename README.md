@@ -26,7 +26,8 @@ __Swift 개발 첧학__
   아키텍처](https://github.com/wonism/swift-study/blob/master/book/ch01.md)
 - [2장 -
   함수](https://github.com/wonism/swift-study/blob/master/book/ch02.md)
-- 3장 - 변수와 데이터 타입
+- [3장 - 변수와 데이터
+  타입](https://github.com/wonism/swift-study/blob/master/book/ch03.md)
 - 4장 - 객체 타입
 - 5장 - 플로우 컨트롤, 프라이버시, 메모리 관리
 - 6장 - 엑스코드 프로젝트의 구조
