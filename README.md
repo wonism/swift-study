@@ -11,7 +11,7 @@
 ![](https://github.com/wonism/swift-study/blob/master/book/img/book-front.jpg)
 
 ## 들어가기 앞서..
-__Swift 개발 첧학__
+__Swift 개발 철학__
 - 객체지향성 : '모든 것은 객체다.'라고 표현할 정도로 객체지향적이다.
 - 명료성 : 스위프트의 문법은 분명하고 일관되며, 명시적이다.
 - 안전성 : 강한 데이터 타입 지정 방식을 가지며, 이를 통해 모든 객체의 데이터 타입
