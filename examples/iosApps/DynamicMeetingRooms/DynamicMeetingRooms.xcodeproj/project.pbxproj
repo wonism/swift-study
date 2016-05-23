@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE8CAFB41CF343A200F8008F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8CAFB31CF343A200F8008F /* AppDelegate.swift */; };
+		DE8CAFB61CF343A200F8008F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8CAFB51CF343A200F8008F /* ViewController.swift */; };
+		DE8CAFB91CF343A200F8008F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8CAFB71CF343A200F8008F /* Main.storyboard */; };
+		DE8CAFBB1CF343A200F8008F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8CAFBA1CF343A200F8008F /* Assets.xcassets */; };
+		DE8CAFBE1CF343A200F8008F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8CAFBC1CF343A200F8008F /* LaunchScreen.storyboard */; };
+		DE8CAFC61CF3440800F8008F /* MeetingRoomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8CAFC51CF3440800F8008F /* MeetingRoomListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE8CAFB01CF343A200F8008F /* DynamicMeetingRooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicMeetingRooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8CAFB31CF343A200F8008F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE8CAFB51CF343A200F8008F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE8CAFB81CF343A200F8008F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE8CAFBA1CF343A200F8008F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE8CAFBD1CF343A200F8008F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE8CAFBF1CF343A200F8008F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8CAFC51CF3440800F8008F /* MeetingRoomListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingRoomListViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE8CAFAD1CF343A200F8008F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE8CAFA71CF343A200F8008F = {
+			isa = PBXGroup;
+			children = (
+				DE8CAFB21CF343A200F8008F /* DynamicMeetingRooms */,
+				DE8CAFB11CF343A200F8008F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE8CAFB11CF343A200F8008F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE8CAFB01CF343A200F8008F /* DynamicMeetingRooms.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE8CAFB21CF343A200F8008F /* DynamicMeetingRooms */ = {
+			isa = PBXGroup;
+			children = (
+				DE8CAFB31CF343A200F8008F /* AppDelegate.swift */,
+				DE8CAFB51CF343A200F8008F /* ViewController.swift */,
+				DE8CAFB71CF343A200F8008F /* Main.storyboard */,
+				DE8CAFC51CF3440800F8008F /* MeetingRoomListViewController.swift */,
+				DE8CAFBA1CF343A200F8008F /* Assets.xcassets */,
+				DE8CAFBC1CF343A200F8008F /* LaunchScreen.storyboard */,
+				DE8CAFBF1CF343A200F8008F /* Info.plist */,
+			);
+			path = DynamicMeetingRooms;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE8CAFAF1CF343A200F8008F /* DynamicMeetingRooms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8CAFC21CF343A200F8008F /* Build configuration list for PBXNativeTarget "DynamicMeetingRooms" */;
+			buildPhases = (
+				DE8CAFAC1CF343A200F8008F /* Sources */,
+				DE8CAFAD1CF343A200F8008F /* Frameworks */,
+				DE8CAFAE1CF343A200F8008F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicMeetingRooms;
+			productName = DynamicMeetingRooms;
+			productReference = DE8CAFB01CF343A200F8008F /* DynamicMeetingRooms.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE8CAFA81CF343A200F8008F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Jaewonism;
+				TargetAttributes = {
+					DE8CAFAF1CF343A200F8008F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DE8CAFAB1CF343A200F8008F /* Build configuration list for PBXProject "DynamicMeetingRooms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE8CAFA71CF343A200F8008F;
+			productRefGroup = DE8CAFB11CF343A200F8008F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE8CAFAF1CF343A200F8008F /* DynamicMeetingRooms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE8CAFAE1CF343A200F8008F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8CAFBE1CF343A200F8008F /* LaunchScreen.storyboard in Resources */,
+				DE8CAFBB1CF343A200F8008F /* Assets.xcassets in Resources */,
+				DE8CAFB91CF343A200F8008F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE8CAFAC1CF343A200F8008F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8CAFB61CF343A200F8008F /* ViewController.swift in Sources */,
+				DE8CAFB41CF343A200F8008F /* AppDelegate.swift in Sources */,
+				DE8CAFC61CF3440800F8008F /* MeetingRoomListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE8CAFB71CF343A200F8008F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8CAFB81CF343A200F8008F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE8CAFBC1CF343A200F8008F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8CAFBD1CF343A200F8008F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE8CAFC01CF343A200F8008F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE8CAFC11CF343A200F8008F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE8CAFC31CF343A200F8008F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynamicMeetingRooms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cf.jaewonism.DynamicMeetingRooms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE8CAFC41CF343A200F8008F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynamicMeetingRooms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cf.jaewonism.DynamicMeetingRooms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE8CAFAB1CF343A200F8008F /* Build configuration list for PBXProject "DynamicMeetingRooms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8CAFC01CF343A200F8008F /* Debug */,
+				DE8CAFC11CF343A200F8008F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8CAFC21CF343A200F8008F /* Build configuration list for PBXNativeTarget "DynamicMeetingRooms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8CAFC31CF343A200F8008F /* Debug */,
+				DE8CAFC41CF343A200F8008F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE8CAFA81CF343A200F8008F /* Project object */;
+}
