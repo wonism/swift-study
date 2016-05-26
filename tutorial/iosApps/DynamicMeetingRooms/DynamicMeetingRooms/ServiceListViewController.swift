@@ -20,6 +20,10 @@ class ServiceListViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        
+        self.title = branch?.name
+        self.navigationItem.title = "\(branch!.name) 정보"
+        self.navigationController?.toolbarHidden = false
     }
 
     override func didReceiveMemoryWarning() {
@@ -91,12 +95,15 @@ class ServiceListViewController: UITableViewController {
     }
     */
 
-    /*
-    // MARK: - Navigation
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        if segue.identifier == "MeetingRoomSegue" {
+            guard let destination = segue.destinationViewController as? MeetingRoomListViewController, selectedIndex = self.tableView.indexPathForSelectedRow?.row, service = branch?.services?[selectedIndex] else {
+                return
+            }
+            destination.service = service
+        }
     }
-    */
 }
