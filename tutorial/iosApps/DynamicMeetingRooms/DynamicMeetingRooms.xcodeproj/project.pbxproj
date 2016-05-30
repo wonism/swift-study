@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE050E2F1CFC7D5600A8F4D1 /* RoomInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE050E2E1CFC7D5600A8F4D1 /* RoomInfoViewController.swift */; };
 		DE254CAC1CF5E3F6000DD14C /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE254CAB1CF5E3F6000DD14C /* DataCenter.swift */; };
 		DE254CAE1CF5EA87000DD14C /* ServiceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE254CAD1CF5EA87000DD14C /* ServiceListViewController.swift */; };
 		DE254CB01CF5EB0B000DD14C /* BranchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE254CAF1CF5EB0B000DD14C /* BranchListViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE050E2E1CFC7D5600A8F4D1 /* RoomInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomInfoViewController.swift; sourceTree = "<group>"; };
 		DE254CAB1CF5E3F6000DD14C /* DataCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
 		DE254CAD1CF5EA87000DD14C /* ServiceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceListViewController.swift; sourceTree = "<group>"; };
 		DE254CAF1CF5EB0B000DD14C /* BranchListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchListViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				DE8CAFB31CF343A200F8008F /* AppDelegate.swift */,
 				DE8CAFB51CF343A200F8008F /* ViewController.swift */,
 				DE8CAFB71CF343A200F8008F /* Main.storyboard */,
+				DE050E2E1CFC7D5600A8F4D1 /* RoomInfoViewController.swift */,
 				DE8CAFC51CF3440800F8008F /* MeetingRoomListViewController.swift */,
 				DE8CAFBA1CF343A200F8008F /* Assets.xcassets */,
 				DE8CAFBC1CF343A200F8008F /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE050E2F1CFC7D5600A8F4D1 /* RoomInfoViewController.swift in Sources */,
 				DE254CAE1CF5EA87000DD14C /* ServiceListViewController.swift in Sources */,
 				DE8CAFB61CF343A200F8008F /* ViewController.swift in Sources */,
 				DE8CAFB41CF343A200F8008F /* AppDelegate.swift in Sources */,
